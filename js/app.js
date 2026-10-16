@@ -2,7 +2,7 @@ let carrito = [];
 
 function anadir(producto) {
   carrito.push(producto);
-  document.getElementById('contador').textContent = carrito.lenght;
+  document.getElementById('contador').textContent = carrito.length;
   console.log('Añadido:', producto);
 }
 
